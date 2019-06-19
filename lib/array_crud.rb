@@ -6,9 +6,8 @@ def create_an_array
 federation_starships = ["constellation", "defiant", "excalibur", "exeter"]
 end
 
-def add_element_to_end_of_arry
-federation_starships = ["constellation", "defiant", "excalibur", "exeter"]
-federation_starships <<("enterprise")
+def add_element_to_end_of_array(array, element)
+  
 end
 
 def add_element_to_start_of_array(array, element)
