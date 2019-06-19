@@ -1,25 +1,26 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+federation_starships = ["constellation", "defiant", "excalibur", "exeter"]
 end
 
-def add_element_to_end_of_array(array, element)
-  
+def add_element_to_end_of_arry
+federation_starships = ["constellation", "defiant", "excalibur", "exeter"]
+federation_starships <<("enterprise")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  federation_starships.unshift("enterprise")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  constellation_starship = federation_starships.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  excalibur_starship = federation_starships.shift
 end
 
 def retrieve_element_from_index(array, index_number)
